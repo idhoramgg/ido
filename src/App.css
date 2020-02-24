@@ -1,11 +1,13 @@
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 body {
   background-color: rgb(241, 241, 226);
   font-family: "Raleway";
   scroll-behavior: smooth;
-  padding: 50px;
+  box-sizing: border-box;
+  padding-top: 50px;
 }
 .App {
   text-align: center;

@@ -6,7 +6,7 @@ export const Header = () => {
   const imagetop = {
     backgroundImage: `url(${image})`,
     height: "300px",
-    minWidth: "100%",
+    maxWidth: "100%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: 'cover'
