@@ -1,4 +1,6 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
+
 
 export const History = () => {
 
@@ -11,6 +13,7 @@ export const History = () => {
     <div className="container" style={{backgroundColor: 'black', minWidth: '100%'}}>
       <h5 style={{color: 'white', padding: '20px'}}> Work Experience </h5>
       <hr />
+      <Fade left>
       <div className="card text-white bg-dark mb-3" style={cardExp}>
         <div className="card-header">MG Holiday Group</div>
         <div className="card-body">
@@ -20,6 +23,8 @@ export const History = () => {
           </p>
         </div>
       </div>
+      </Fade>
+      <Fade right>
       <div className="card text-white bg-dark mb-3" style={cardExp}>
         <div className="card-header">Artemis Az group Indonesia</div>
         <div className="card-body">
@@ -29,6 +34,8 @@ export const History = () => {
           </p>
         </div>
       </div>
+      </Fade>
+      <Fade left>
       <div className="card text-white bg-dark mb-3" style={cardExp}>
         <div className="card-header">PT Bank Rakyat Indonesia (Persero) TBK</div>
         <div className="card-body">
@@ -38,6 +45,7 @@ export const History = () => {
           </p>
         </div>
       </div>
+      </Fade>
     </div>
   );
 };

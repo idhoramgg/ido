@@ -1,4 +1,6 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
+
 
 export const About = () => {
     const card = {
@@ -35,6 +37,7 @@ export const About = () => {
     }
     return (
         <div style={card}>
+            <Fade left>
            <div style={cardItem}> 
            <h5 id="aboutpage">About me</h5>
            <hr/>
@@ -56,6 +59,7 @@ export const About = () => {
            </div>
            </div>
            </div>
+           </Fade>
         </div>
     )
 }

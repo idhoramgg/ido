@@ -1,8 +1,11 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
+
 
 export const Contact = () => {
  
   return (
+      <Fade right>
     <div className="container" style={{backgroundColor: 'black', minWidth: '100%', height: '500px', color: 'white'}}>
         <h5 id="contactpage" style={{color: 'white', padding: '20px'}}> Contact Me</h5>
       <form action="mailto:ridhoabdulmajid@gmail.com" method="POST" encType="text/plain">
@@ -36,6 +39,7 @@ export const Contact = () => {
         <input className ="btn btn-warning" type="submit" value="Send"/>
       </form>
     </div>
+    </Fade>
   );
 };
 
