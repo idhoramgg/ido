@@ -10,6 +10,7 @@ import About from './components/About.js'
 import History from './components/History.js'
 import Contact from './components/Contact.js'
 import Footer from './components/Footer'
+import School from './components/School'
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </div>
       <div className="App">
       <History />
+      </div>
+      <div className="App">
+      <School />
       </div>
       <div className="App">
       <Contact />
