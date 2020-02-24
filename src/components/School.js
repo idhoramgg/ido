@@ -7,7 +7,7 @@ import img2 from '../assets/images/fthlah.png'
 export const School = () => {
     const imgStyle = {
         minWidth: '100%',
-        height: '300px',
+        height: '500px',
         background: `url(${img1})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -15,7 +15,7 @@ export const School = () => {
     }
     const imgStyle2 = {
         minWidth: '100%',
-        height: '300px',
+        height: '500px',
         background: `url(${img2})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
