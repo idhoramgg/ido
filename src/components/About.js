@@ -43,16 +43,16 @@ export const About = () => {
            </p>
            <div style={sosmedCont}>
            <div style={sosmed}>
-           <a href="https://www.linkedin.com/in/ridho-abdul-majid-24a988188/" target="_blank"><i class="fa fa-linkedin" style={{color: 'white'}}></i></a> 
+           <a href="https://www.linkedin.com/in/ridho-abdul-majid-24a988188/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin" style={{color: 'white'}}></i></a> 
            </div>
            <div style={sosmed}>
-           <a href="https://www.facebook.com/idhoram" target="_blank"><i class="fa fa-facebook" style={{color: 'white'}}></i></a> 
+           <a href="https://www.facebook.com/idhoram" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" style={{color: 'white'}}></i></a> 
            </div>
            <div style={sosmed}>
-           <a href="https://www.instagram.com/idhoram/" target="_blank"><i class="fa fa-instagram" style={{color: 'white'}}></i></a> 
+           <a href="https://www.instagram.com/idhoram/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" style={{color: 'white'}}></i></a> 
            </div>
            <div style={sosmed}>
-           <a href="https://wa.me/087882252815" target="_blank"><i class="fa fa-whatsapp" style={{color: 'white'}}></i></a> 
+           <a href="https://wa.me/6287882252815" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp" style={{color: 'white'}}></i></a> 
            </div>
            </div>
            </div>
