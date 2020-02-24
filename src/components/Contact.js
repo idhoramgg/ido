@@ -1,10 +1,11 @@
 import React from "react";
 
 export const Contact = () => {
+ 
   return (
     <div className="container" style={{backgroundColor: 'black', minWidth: '100%', height: '500px', color: 'white'}}>
         <h5 id="contactpage" style={{color: 'white', padding: '20px'}}> Contact Me</h5>
-      <form action="mailto: ridhoabdulmajid@gmail.com" method="POST" encType="text/plain">
+      <form action="mailto:ridhoabdulmajid@gmail.com" method="POST" encType="text/plain">
         <div class="form-group">
           <label for="name">Name</label>
           <input

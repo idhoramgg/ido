@@ -9,7 +9,8 @@ export const Footer = () => {
         width: '100%',
         backgroundColor: 'black',
         color: 'white',
-        textAlign: 'center'
+        textAlign: 'center',
+        border: '1px solid gold'
     }
 
     return (

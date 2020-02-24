@@ -51,6 +51,9 @@ export const About = () => {
            <div style={sosmed}>
            <a href="linkedin.com"><i class="fa fa-twitter" style={{color: 'white'}}></i></a> 
            </div>
+           <div style={sosmed}>
+           <a href="https://wa.me/087882252815"><i class="fa fa-whatsapp" style={{color: 'white'}}></i></a> 
+           </div>
            </div>
            </div>
         </div>
