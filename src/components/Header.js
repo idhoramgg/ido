@@ -9,7 +9,7 @@ export const Header = () => {
     minWidth: "100%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    backgroundOpacity: "0,5"
+    backgroundSize: 'cover'
   };
 
   const hero = {
