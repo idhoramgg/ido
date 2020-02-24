@@ -1,7 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: rgb(241, 241, 226);
   font-family: "Raleway";
   border: 1px solid gold;
+  scroll-behavior: smooth;
+
 }
 .App {
   text-align: center;
