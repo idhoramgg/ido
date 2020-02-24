@@ -29,8 +29,7 @@ export default class App extends Component {
   render() {
   
     const loadingg = {
-      margin: '50% auto',
-
+      margin: '30% auto',
     }
 
     if(this.state.loading) {
