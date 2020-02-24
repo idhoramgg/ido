@@ -5,6 +5,7 @@ body {
   background-color: rgb(241, 241, 226);
   font-family: "Raleway";
   scroll-behavior: smooth;
+  padding: 50px;
 }
 .App {
   text-align: center;
