@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 /* Components */
-
 import Navbar from './components/Navbar.js'
 import Header from './components/Header.js'
 import About from './components/About.js'
@@ -11,6 +10,7 @@ import Contact from './components/Contact.js'
 import Footer from './components/Footer'
 import School from './components/School'
 import Loading from './components/Loading'
+import Portofolio from './components/Portofolio'
 
 export default class App extends Component {
   constructor(props){
@@ -54,6 +54,9 @@ export default class App extends Component {
           </div>
           <div className="App">
           <School />
+          </div>
+          <div className="App">
+          <Portofolio/>
           </div>
           <div className="App">
           <Contact />

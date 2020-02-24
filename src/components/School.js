@@ -34,6 +34,7 @@ export const School = () => {
           </p>
         </small>
       </small>
+      <br/>
       </Fade>
       <Fade right>
       <small className="card mb-3">
