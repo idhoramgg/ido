@@ -1,4 +1,6 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
+
 
 import cukurin from '../assets/images/ckurin.png'
 import todoy from '../assets/images/todoy.jpg'
@@ -6,6 +8,7 @@ import mgf from '../assets/images/mgf.png'
 
 export const Portofolio = () => {
     return (
+        <Fade left>
         <div className="container" style={{backgroundColor: 'black', minWidth: '100%', height: '100%', color: 'white'}}>
         <h5 id="portofolio" style={{color: 'white', padding: '20px'}}> Portofolio </h5>
         <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
@@ -23,19 +26,20 @@ export const Portofolio = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={todoy} className="d-block w-100" alt="todo"/>
-            <div className="carousel-caption d-none d-md-block">
-            <h5><a href="https://simpletodo-ido.netlify.com" target="_blank" rel="noopener noreferrer" style={{color: 'gold'}}>Simple Todo</a></h5>
-              <p>My first web application training, using localstorage</p>
-            </div>
-          </div>
-          <div className="carousel-item">
             <img src={mgf} className="d-block w-100" alt="mgf"/>
             <div className="carousel-caption d-none d-md-block">
               <h5><a href="https://mgfriends.com/" target="_blank" rel="noopener noreferrer" style={{color: 'gold'}}> MG Friends </a></h5>
               <p> MG Friends, Loyalty program for MG Bedbank, gives MG Friends points for each transaction in mgbedbank.com and allow members to claim various rewards with the earned points </p>
             </div>
           </div>
+          <div className="carousel-item">
+            <img src={todoy} className="d-block w-100" alt="todo"/>
+            <div className="carousel-caption d-none d-md-block">
+            <h5><a href="https://simpletodo-ido.netlify.com" target="_blank" rel="noopener noreferrer" style={{color: 'gold'}}>Simple Todo</a></h5>
+              <p>My first web application training, using localstorage</p>
+            </div>
+          </div>
+          
         </div>
         <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -47,6 +51,7 @@ export const Portofolio = () => {
         </a>
       </div>
       </div>
+      </Fade>
     )
 }
 export default Portofolio;
