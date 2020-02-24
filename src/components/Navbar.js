@@ -3,7 +3,7 @@ import React from "react";
 export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a href="www.google.com" className="navbar-brand">
+      <a href="/" className="navbar-brand">
         {" "}
         <h5>My Personal Website</h5>
       </a>
