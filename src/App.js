@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import BackToTop from 'react-back-to-top-button'
 import './App.css';
 
 /* Components */
@@ -12,6 +13,7 @@ import School from './components/School'
 import Loading from './components/Loading'
 import Portofolio from './components/Portofolio'
 import Skills from './components/Skills'
+
 
 export default class App extends Component {
   constructor(props){
@@ -41,7 +43,7 @@ export default class App extends Component {
       )
     } else {
       return (
-        <div className="container" >
+        <div className="container">
           <Navbar/>
           <div className="App">
           <Header/>
@@ -64,11 +66,19 @@ export default class App extends Component {
           <div className="App">
           <Contact />
           </div>
+
+          <BackToTop
+        showOnScrollUp = {false}
+        showAt={1000}
+        speed={1000}
+        easing="easeInOutQuint"
+      >
+        <button className="btn btn-warning" style={{position: 'fixed', bottom: 100, left: 10}}>Back To Top</button>
+      </BackToTop>
           <div className="App">
           <Footer />
           </div>
-    
-        </div>
+        </div>      
        );
     }
 
