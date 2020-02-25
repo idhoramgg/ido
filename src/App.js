@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import School from './components/School'
 import Loading from './components/Loading'
 import Portofolio from './components/Portofolio'
+import Skills from './components/Skills'
 
 export default class App extends Component {
   constructor(props){
@@ -53,6 +54,9 @@ export default class App extends Component {
           </div>
           <div className="App">
           <School />
+          </div>
+          <div className="App">
+          <Skills />
           </div>
           <div className="App">
           <Portofolio/>
