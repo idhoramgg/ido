@@ -64,7 +64,7 @@ export const Skills = () => {
                   <li style={colora} className="list-group-item">Figma</li>
                   <li style={colora} className="list-group-item">HTML 5</li>
                   <li style={colora} className="list-group-item">CSS 3</li>
-                  <li style={colora} className="list-group-item">Boostrap</li>
+                  <li style={colora} className="list-group-item">Bootstrap</li>
                   <li style={colora} className="list-group-item">SASS</li>
                   <li style={colora} className="list-group-item">JavaScript</li>
                   <li style={colora} className="list-group-item">React JS</li>
